@@ -189,7 +189,7 @@ span{
     position: relative;
 }
 .text-animation span::before{
-    content: "Data Analyst";
+    content: "SOC Analyst";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -211,24 +211,24 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "Data Analyst";
+        content: "SOC Analyst";
     }
     21%,
     40%{
-        content: "Business Analyst";
+        content: "Cyber Security Analyst";
     }
     41%,
     60%{
-        content: "Data Analyst";
+        content: "Threat Detection";
     }
     61%,
     80%{
-        content: "Business Analyst";
+        content: "Incident Response";
     }
     81%,
     100%{
-        content: "Data Analyst";
-    }
+        content: "SOC Analyst";
+    }
 }
 @keyframes typing{
     10%,
@@ -602,10 +602,6 @@ span{
 }
 
 .project-item a:hover {
-
-
-
-    
     color: white;
 }
 
@@ -637,6 +633,22 @@ span{
 
 .skills-list li {
     margin-bottom: 1.5rem;
+}
+
+.certifications {
+    background: var(--second-bg-color);
+    padding: 100px 12%;
+}
+
+.certifications .heading {
+    font-size: 6rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.certifications .skills-list {
+    background-color: var(--bg-color);
 }
 
 .contact {

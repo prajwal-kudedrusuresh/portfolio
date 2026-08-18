@@ -3,49 +3,71 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prajwal Kuderu Suresh | Cyber Security & SOC Analyst</title>
+    <title>Prajwal Kuderu Suresh | SOC / Cyber Security Analyst</title>
     <link rel="stylesheet" href="style.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="scanline"></div>
+
     <header class="header">
-        <a href="#home" class="logo"> Prajwal
-            <span>Kuderu Suresh </span> </a>
+        <a href="#home" class="logo">prajwal<span>@</span>soc<span>:~$</span></a>
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" class="active">home</a>
+            <a href="#education">education</a>
+            <a href="#projects">incidents</a>
+            <a href="#skills">skills</a>
+            <a href="#certifications">certs</a>
+            <a href="#contact">contact</a>
         </nav>
     </header>
 
     <section class="home" id="home">
-        <div class="home-content">
-            <h1>Hi, It's <span> Prajwal</span></h1>
-            <h3 class="text-animation">I'm a <span></span></h3>
-            <p>MSc Cyber Security student with hands-on blue-team experience across SIEM (Splunk, Elastic Stack), SOAR, EDR and MITRE ATT&CK-mapped incident response. I investigate, triage, and document security alerts the way a SOC analyst would in production, and I've built an AI-powered ransomware detection system to take that further, using deep learning to flag malicious behaviour from memory forensics. Currently seeking a Junior SOC Analyst / Graduate Cyber Security role.</p>
-
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/prajwal-kuderu-suresh" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/Prajwallsk" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.instagram.com/prajwall_sk?igsh=MTV5Y3A3N3BuMHhjYQ%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+        <div class="terminal-window">
+            <div class="terminal-bar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-amber"></span>
+                <span class="dot dot-green"></span>
+                <span class="terminal-title">analyst@soc — zsh</span>
             </div>
+            <div class="terminal-body">
+                <p class="term-line"><span class="prompt">prajwal@soc</span><span class="path">:~$</span> whoami</p>
+                <p class="term-out">Prajwal Kuderu Suresh</p>
+                <p class="term-out">MSc Cyber Security — University of Hertfordshire</p>
+                <p class="term-out term-muted">Milton Keynes, UK</p>
 
-            <div class="btn-group">
-                <a href="https://drive.google.com/file/d/1rV86qrp7qvE4EDjitK5qXD2BEZv09J3b/view?usp=drivesdk" target="_blank" class="btn">View Resume</a>
-                <a href="https://drive.google.com/file/d/1rV86qrp7qvE4EDjitK5qXD2BEZv09J3b/view?usp=drivesdk" class="btn">Download Resume</a>
+                <p class="term-line"><span class="prompt">prajwal@soc</span><span class="path">:~$</span> cat status.log</p>
+                <p class="term-out"><span class="badge badge-green">STATUS: ACTIVE</span> seeking Junior SOC Analyst / Graduate Cyber Security role</p>
+
+                <p class="term-line"><span class="prompt">prajwal@soc</span><span class="path">:~$</span> cat profile.txt</p>
+                <p class="term-out term-body">Hands-on blue-team experience across SIEM (Splunk, Elastic Stack), SOAR, EDR
+                    and MITRE ATT&CK-mapped incident response. Investigates, triages, and
+                    documents security alerts the way a SOC analyst would in production —
+                    and built an AI-powered ransomware detection system using deep learning
+                    to flag malicious behaviour from memory forensics.</p>
+
+                <p class="term-line"><span class="prompt">prajwal@soc</span><span class="path">:~$</span> <span class="cursor-blink">█</span></p>
             </div>
         </div>
-        <div class="home-img">
-            <img src="image.jpg" alt="" />
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/prajwal-kuderu-suresh" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Prajwallsk" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/prajwall_sk?igsh=MTV5Y3A3N3BuMHhjYQ%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+
+        <div class="btn-group">
+            <a href="https://drive.google.com/file/d/1rV86qrp7qvE4EDjitK5qXD2BEZv09J3b/view?usp=drivesdk" target="_blank" class="btn">View Resume</a>
+            <a href="https://drive.google.com/file/d/1rV86qrp7qvE4EDjitK5qXD2BEZv09J3b/view?usp=drivesdk" class="btn btn-outline">Download Resume</a>
         </div>
     </section>
 
     <section class="education" id="education">
+        <p class="eyebrow">[ EDUCATION_LOG ]</p>
         <h2 class="heading">Education</h2>
 
         <div class="timeline-items">
@@ -55,7 +77,8 @@
                 <div class="timeline-content">
                     <h3>MSc Cyber Security</h3>
                     <p>University of Hertfordshire, UK<br />
-                        Dissertation: "AI-Powered Ransomware Detection System with SOC-Based Risk Analysis" (Supervisor: Dr. Saeid Gorgin)</p>
+                        Dissertation: "AI-Powered Ransomware Detection System with SOC-Based Risk Analysis"
+                        (Supervisor: Dr. Saeid Gorgin)</p>
                 </div>
             </div>
             <div class="timeline-item">
@@ -86,54 +109,110 @@
     </section>
 
     <section class="projects" id="projects">
+        <p class="eyebrow">[ INCIDENT_REPORTS ]</p>
         <h2 class="heading">Projects</h2>
         <div class="project-items">
             <div class="project-item">
+                <div class="ticket-head">
+                    <span class="badge badge-green">RESOLVED</span>
+                    <span class="ticket-id">TICKET-01</span>
+                </div>
                 <h3>AI-Powered Ransomware Detection System</h3>
-                <p>MSc dissertation project. Designed and trained deep learning models (LSTM, DNN, Autoencoder) on the CIC-MalMem-2022 dataset to detect ransomware behaviour from memory-based features. Deployed detection outputs through a Streamlit-based SOC dashboard to support analyst-facing risk triage.</p>
-                <p><strong>Tools:</strong> Python, TensorFlow/Keras, Streamlit | <strong>Dataset:</strong> CIC-MalMem-2022</p>
+                <p>MSc dissertation project. Designed and trained deep learning models (LSTM, DNN, Autoencoder) on
+                    the CIC-MalMem-2022 dataset to detect ransomware behaviour from memory-based features. Deployed
+                    detection outputs through a Streamlit-based SOC dashboard to support analyst-facing risk triage.</p>
+                <p class="ticket-meta"><strong>Stack:</strong> Python, TensorFlow/Keras, Streamlit · <strong>Dataset:</strong> CIC-MalMem-2022</p>
             </div>
             <div class="project-item">
+                <div class="ticket-head">
+                    <span class="badge badge-amber">SEV-1</span>
+                    <span class="ticket-id">TICKET-02</span>
+                </div>
                 <h3>APT Campaign Incident Response Analysis</h3>
-                <p>Analysed a simulated 272-day advanced persistent threat (APT) campaign from PCAP network capture data, mapping attacker activity to the MITRE ATT&CK framework in a full incident response report. Developed a Bash-based defence/remediation script to support containment.</p>
-                <p><strong>Tools:</strong> Wireshark, MITRE ATT&CK, Bash</p>
+                <p>Analysed a simulated 272-day advanced persistent threat (APT) campaign from PCAP network capture
+                    data, mapping attacker activity to the MITRE ATT&CK framework in a full incident response
+                    report. Developed a Bash-based defence/remediation script to support containment.</p>
+                <p class="ticket-meta"><strong>Stack:</strong> Wireshark, MITRE ATT&CK, Bash</p>
             </div>
             <div class="project-item">
+                <div class="ticket-head">
+                    <span class="badge badge-green">RESOLVED</span>
+                    <span class="ticket-id">TICKET-03</span>
+                </div>
                 <h3>CISO-Level Risk Assessment</h3>
-                <p>Produced a risk register and formal policy report addressing third-party supplier security risk (a supply-chain ransomware scenario) for a Heathrow Airport Holdings / Collins Aerospace scenario, aligned to ISO/IEC 27005:2022. Presented and defended findings in a live oral (viva) examination.</p>
-                <p><strong>Framework:</strong> ISO/IEC 27005:2022, GRC</p>
+                <p>Produced a risk register and formal policy report addressing third-party supplier security risk
+                    (a supply-chain ransomware scenario) for a Heathrow Airport Holdings / Collins Aerospace
+                    scenario, aligned to ISO/IEC 27005:2022. Presented and defended findings in a live oral (viva)
+                    examination.</p>
+                <p class="ticket-meta"><strong>Framework:</strong> ISO/IEC 27005:2022, GRC</p>
             </div>
             <div class="project-item">
+                <div class="ticket-head">
+                    <span class="badge badge-amber">MONITORING</span>
+                    <span class="ticket-id">TICKET-04</span>
+                </div>
                 <h3>Home SOC Lab</h3>
-                <p>Built a home lab SOC environment with Sysmon logging, simulated attack scripts, and Splunk / Elastic detections mapped to MITRE ATT&CK, producing a full incident report from detection through triage.</p>
-                <p><strong>Tools:</strong> Splunk, Elastic (SPL/KQL), Sysmon</p>
-                <a href="https://github.com/Prajwallsk" target="_blank">View on GitHub</a>
+                <p>Built a home lab SOC environment with Sysmon logging, simulated attack scripts, and Splunk /
+                    Elastic detections mapped to MITRE ATT&CK, producing a full incident report from
+                    detection through triage.</p>
+                <p class="ticket-meta"><strong>Stack:</strong> Splunk, Elastic (SPL/KQL), Sysmon</p>
+                <a href="https://github.com/Prajwallsk" target="_blank" class="ticket-link">view_source →</a>
             </div>
         </div>
     </section>
 
     <section class="skills" id="skills">
+        <p class="eyebrow">[ SKILL_MATRIX ]</p>
         <h2 class="heading">Skills</h2>
-        <ul class="skills-list">
-            <li><strong>SIEM & Monitoring:</strong> Splunk, Elastic Stack (Discover, Visualize, Dashboard, KQL, Lens)</li>
-            <li><strong>SOC Tooling:</strong> EDR, SOAR, SIEM, MITRE ATT&CK framework, alert triage, incident response, threat intelligence, vulnerability management</li>
-            <li><strong>Risk & Governance:</strong> ISO/IEC 27005:2022, GRC, risk assessment and risk registers, security policy development</li>
-            <li><strong>Programming & Scripting:</strong> Python, SQL, Bash</li>
-            <li><strong>Machine Learning:</strong> LSTM, DNN, Autoencoder (applied deep learning for malware/ransomware detection)</li>
-            <li><strong>Platforms & Tools:</strong> Kali Linux, Wireshark (PCAP analysis)</li>
-        </ul>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4>SIEM & Monitoring</h4>
+                <p>Splunk, Elastic Stack (Discover, Visualize, Dashboard, KQL, Lens)</p>
+            </div>
+            <div class="skill-card">
+                <h4>SOC Tooling</h4>
+                <p>EDR, SOAR, SIEM, MITRE ATT&CK framework, alert triage, incident response, threat intelligence, vulnerability management</p>
+            </div>
+            <div class="skill-card">
+                <h4>Risk & Governance</h4>
+                <p>ISO/IEC 27005:2022, GRC, risk assessment and risk registers, security policy development</p>
+            </div>
+            <div class="skill-card">
+                <h4>Programming & Scripting</h4>
+                <p>Python, SQL, Bash</p>
+            </div>
+            <div class="skill-card">
+                <h4>Machine Learning</h4>
+                <p>LSTM, DNN, Autoencoder (applied deep learning for malware/ransomware detection)</p>
+            </div>
+            <div class="skill-card">
+                <h4>Platforms & Tools</h4>
+                <p>Kali Linux, Wireshark (PCAP analysis)</p>
+            </div>
+        </div>
     </section>
 
     <section class="certifications" id="certifications">
+        <p class="eyebrow">[ CERTIFICATIONS ]</p>
         <h2 class="heading">Certifications</h2>
-        <ul class="skills-list">
-            <li>CompTIA Security+ (in progress)</li>
-            <li>TryHackMe — SOC Level 1 Learning Path (in progress)</li>
-            <li>Cisco Skills for All — Cyber Security Foundations</li>
-        </ul>
+        <div class="cert-list">
+            <div class="cert-row">
+                <span class="badge badge-amber">IN PROGRESS</span>
+                <span>CompTIA Security+</span>
+            </div>
+            <div class="cert-row">
+                <span class="badge badge-amber">IN PROGRESS</span>
+                <span>TryHackMe — SOC Level 1 Learning Path</span>
+            </div>
+            <div class="cert-row">
+                <span class="badge badge-green">COMPLETE</span>
+                <span>Cisco Skills for All — Cyber Security Foundations</span>
+            </div>
+        </div>
     </section>
 
     <section class="contact" id="contact">
+        <p class="eyebrow">[ CONTACT_CHANNEL ]</p>
         <h2 class="heading">Contact</h2>
         <p><strong>Email:</strong>
             <a href="mailto:prajwalks.work@gmail.com">prajwalks.work@gmail.com</a>

@@ -18,6 +18,7 @@
 
         <nav class="navbar">
             <a href="#home" class="active">home</a>
+            <a href="#experience">experience</a>
             <a href="#education">education</a>
             <a href="#projects">incidents</a>
             <a href="#skills">skills</a>
@@ -68,6 +69,36 @@
         <div class="btn-group">
             <a href="https://docs.google.com/document/d/1r5aK8eQGE-pyu8Hk7Mkk8J95P0844LWA/edit?usp=drivesdk&ouid=115324172635302927988&rtpof=true&sd=true" target="_blank" class="btn">View Resume</a>
             <a href="https://docs.google.com/document/d/1r5aK8eQGE-pyu8Hk7Mkk8J95P0844LWA/export?format=pdf" target="_blank" class="btn btn-outline">Download Resume</a>
+        </div>
+    </section>
+
+    <section class="education" id="experience">
+        <p class="eyebrow">[ EXPERIENCE_LOG ]</p>
+        <h2 class="heading">Experience</h2>
+
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Sept 2023 – 2024</div>
+                <div class="timeline-content">
+                    <h3>Graduate Cyber Security Analyst</h3>
+                    <p>EnactOn Technologies Pvt. Ltd., Surat, India<br />
+                        • Cloud and server audit: audited 19 GCP servers by cross-checking Lynis, an nmap full-TCP scan and the firewall export; identified SSH/RDP open to 0.0.0.0/0, publicly exposed databases and admin dashboards, and delivered a per-server gaps report and firewall action list.<br />
+                        • Patching and migration: remediated end-of-life PHP 7.4 on Ubuntu 20.04 servers (temporary mitigation, then Ubuntu Pro ESM) and prepared a DigitalOcean-to-Hetzner migration with verified table counts and a one-DNS-change rollback.<br />
+                        • AI security: red-teamed an LLM feature with Promptfoo (prompt injection, hallucination) and reported where it fails.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Jan 2021 – Aug 2023</div>
+                <div class="timeline-content">
+                    <h3>Cyber Security Analyst Intern</h3>
+                    <p>EnactOn Technologies Pvt. Ltd., Surat, India<br />
+                        • Vulnerability assessment and reporting: ran SCA, SAST, DAST and manual validation (Trivy, Semgrep, Gitleaks, OWASP ZAP) across six repositories and a SaaS platform; confirmed 13 findings and reduced 234 dependency findings to the 16 reachable in production.<br />
+                        • Secrets and CI/CD: found an exposed Google API key and built a GitHub Actions security pipeline (Gitleaks, Semgrep, Trivy) with Gitleaks blocking merges.<br />
+                        • Intrusion detection: wrote and tested custom Snort/Suricata rules and defined a tuning approach to control alert volume.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -186,6 +217,10 @@
                 <p>ISO/IEC 27005:2022, GRC, risk assessment and risk registers, security policy development</p>
             </div>
             <div class="skill-card">
+                <h4>Application & Infrastructure Security</h4>
+                <p>Trivy, Semgrep, Gitleaks, OWASP ZAP, Burp Suite, nmap, Lynis, Snort, Suricata, Promptfoo, GitHub Actions, GCP firewall review</p>
+            </div>
+            <div class="skill-card">
                 <h4>Programming & Scripting</h4>
                 <p>Python, SQL, Bash</p>
             </div>
@@ -215,6 +250,10 @@
             <div class="cert-row">
                 <span class="badge badge-green">COMPLETE</span>
                 <span>Cisco Skills for All — Cyber Security Foundations</span>
+            </div>
+            <div class="cert-row">
+                <span class="badge badge-green">COMPLETE</span>
+                <span>Google (Coursera) — Foundations of Cybersecurity; Play It Safe: Manage Security Risks; Assets, Threats, and Vulnerabilities</span>
             </div>
         </div>
     </section>

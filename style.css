@@ -367,3 +367,19 @@ section {
     color: var(--green);
     letter-spacing: 0.1rem;
 }
+
+/* Mobile menu (opened by script.js) */
+@media (max-width: 768px) {
+  .navbar.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 5%;
+    background: rgba(8, 12, 10, 0.98);
+    border-bottom: 1px solid var(--green);
+  }
+  .navbar.open a { display: block; margin: 0.8rem 0; }
+}
